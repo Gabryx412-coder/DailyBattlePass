@@ -1,0 +1,27 @@
+name: DailyRewardsPro
+version: 1.0.0
+main: com.gabry.dailyrewards.DailyRewardsPro
+api-version: 1.20
+authors: [Gabry]
+description: Un plugin avanzato per ricompense giornaliere e BattlePass.
+commands:
+  claim:
+    description: Apri la GUI per riscattare le ricompense giornaliere.
+    usage: /<command>
+    permission: dailyrewardspro.claim
+    permission-message: Non hai il permesso di usare questo comando.
+  battlepass:
+    description: Apri la GUI del BattlePass.
+    usage: /<command>
+    permission: dailyrewardspro.battlepass
+    permission-message: Non hai il permesso di usare questo comando.
+permissions:
+  dailyrewardspro.claim:
+    description: Permette di aprire la GUI delle ricompense giornaliere.
+    default: true
+  dailyrewardspro.battlepass:
+    description: Permette di aprire la GUI del BattlePass.
+    default: true
+  dailyrewardspro.admin:
+    description: Permette l'accesso ai comandi amministrativi del plugin.
+    default: op

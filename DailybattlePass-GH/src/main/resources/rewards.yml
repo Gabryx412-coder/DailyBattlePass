@@ -1,0 +1,51 @@
+rewards:
+  basic_reward_1:
+    display_name: "&aRicompensa Base 1"
+    material: STONE_SWORD
+    amount: 1
+    lore:
+      - "&7Una spada di pietra."
+      - "&7Utile per iniziare."
+    commands:
+      - "give %player% stone_sword 1"
+    xp_reward: 10
+  basic_reward_2:
+    display_name: "&eLingotti d'Oro"
+    material: GOLD_INGOT
+    amount: 5
+    lore:
+      - "&7Cinque lingotti d'oro."
+      - "&7Preziosi per il crafting."
+    commands:
+      - "give %player% gold_ingot 5"
+    xp_reward: 15
+  intermediate_reward_1:
+    display_name: "&bDiamante Grezzo"
+    material: RAW_DIAMOND
+    amount: 1
+    lore:
+      - "&7Un diamante grezzo."
+      - "&7Una risorsa rara!"
+    commands:
+      - "give %player% raw_diamond 1"
+    xp_reward: 25
+  intermediate_reward_2:
+    display_name: "&dBlocco di Ferro"
+    material: IRON_BLOCK
+    amount: 1
+    lore:
+      - "&7Un blocco di ferro."
+      - "&7Per le tue costruzioni."
+    commands:
+      - "give %player% iron_block 1"
+    xp_reward: 30
+  special_reward:
+    display_name: "&cMela Incantata"
+    material: GOLDEN_APPLE
+    amount: 1
+    lore:
+      - "&7Una mela d'oro incantata."
+      - "&7Ti rende invincibile!"
+    commands:
+      - "give %player% golden_apple{Enchantments:[{id:unbreaking,lvl:1}]} 1" # Esempio con NBT per incantamento
+    xp_reward: 50
